@@ -1,1 +1,3 @@
-print("Hello World")
+from pathlib import Path
+
+print(Path.home())
