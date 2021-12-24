@@ -66,8 +66,25 @@
 # == equal to
 
 # % modulo will give you the remainer of a value
-num = int(input("Is this an odd number? "))
-if num % 2 == 0:
-    print("No that was not an odd number.")
-else:
-    print("Yes that was an odd number.")
+# num = int(input("Is this an odd number? "))
+# if num % 2 == 0:
+#     print("No that was not an odd number.")
+# else:
+#     print("Yes that was an odd number.")
+
+# elif if conditions
+# if condition:
+#     do a
+# elif condtion:
+#     do b
+# else:
+#     do c
+
+# nested if conditions
+# if condition:
+#     if condition:
+#         do a
+#     else:
+#         do b
+# else:
+#     do c
