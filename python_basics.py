@@ -88,3 +88,57 @@
 #         do b
 # else:
 #     do c
+
+# if / elif / else
+# if condition1:
+#    do A
+# elif condition2:
+#    do B
+# else:
+#    do C
+
+# Logical Operators
+# A and B must be True
+# C or D just one must be true
+# not E not true
+
+# if condition1 & condition2 & condition3:
+
+print("Welcome to the Love Calculator!")
+name1 = input("What is your name? \n")
+name2 = input("What is their name? \n")
+# 🚨 Don't change the code above 👆
+
+# Write your code below this line 👇
+
+name1_lower = name1.lower()
+name2_lower = name2.lower()
+
+true = 0
+love = 0
+
+true += name1_lower.count("t")
+true += name1_lower.count("r")
+true += name1_lower.count("u")
+true += name1_lower.count("e")
+true += name2_lower.count("t")
+true += name2_lower.count("r")
+true += name2_lower.count("u")
+true += name2_lower.count("e")
+
+love += name1_lower.count("l")
+love += name1_lower.count("o")
+love += name1_lower.count("v")
+love += name1_lower.count("e")
+love += name2_lower.count("l")
+love += name2_lower.count("o")
+love += name2_lower.count("v")
+love += name2_lower.count("e")
+lovenum = str(true) + str(love)
+lnum = int(lovenum)
+if (lnum <= 10) or (lnum >= 90):
+    print(f"\nYour score is {lnum}, you go together like coke and mentos.")
+elif (lnum >= 40) or (lnum <= 50):
+    print(f"\nYour score is {lnum}, you are alright together.")
+else:
+    print(f"\nYour score is: {lnum}.")
