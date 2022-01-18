@@ -27,3 +27,17 @@ print(fruits[1])
 fruits.append("pear")  # to add to the end of a list
 print(fruits)
 # https://docs.python.org/3/tutorial/datastructures.html  for more information on list
+
+""" # Split string method
+names_string = input("Give me everybody's names, separated by a comma. ")
+names = names_string.split(", ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+num_names = len(names)
+print(names)
+print(num_names)
+random_integer = random.randint(0, num_names - 1) # -1 because list starts with 0, list length is 1 more because is counts 0 as 1
+print(random_integer)
+print(f"{names[random_integer]}, you are paying for supper!")
+ """
